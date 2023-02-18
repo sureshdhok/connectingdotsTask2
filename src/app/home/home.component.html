@@ -1,0 +1,23 @@
+
+<div style="overflow-x:auto;">
+
+<table class="table">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Year</th>
+        <th>color</th>
+        <th>pantone_value</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of finalData">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.year}}</td>
+            <td>{{user.color}}</td>
+            <td>{{user.pantone_value}}</td>
+
+        </tr>
+    </tbody>
+</table>
+</div>

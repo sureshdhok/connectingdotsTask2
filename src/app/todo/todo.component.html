@@ -1,0 +1,24 @@
+<div style="overflow-x:auto;">
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Todo</th>
+            <th>Completed</th>
+            <th>UserId</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of finalData">
+            <td>{{data.id}}</td>
+            <td>{{data.todo}}</td>
+            <td>{{data.completed}}</td>
+            <td>{{data.userId}}</td>
+
+
+        </tr>
+
+    </tbody>
+</table>
+</div>
